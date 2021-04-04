@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BlueGray900">#263238</color>
+    <color name="BlueGray50">#ECEFF1</color>
+    <color name="cardColor">#F3F3F3</color>
+    <color name="BlueGray500">#607D8B</color>
+    <color name="BlueGray700">#455A64</color>
+    <color name="darkGray">#393e46</color>
+    <color name="yellow">#FBE2A3</color>
+    <color name="gold">#D59B12</color>
+    <color name="offWhite">#eeeeee</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#D2E3ED</color>
+</resources>
