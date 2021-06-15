@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import arrow.core.Either
 import com.megatrust.jobsapp.data.remote.datasources.IJobsRemoteDataSource
+import com.megatrust.jobsapp.data.remote.datasources.JobsRemoteDataSource
 import kotlinx.coroutines.launch
 
 class HomeViewModel(

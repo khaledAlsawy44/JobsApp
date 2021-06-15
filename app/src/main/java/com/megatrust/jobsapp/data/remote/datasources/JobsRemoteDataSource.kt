@@ -8,7 +8,8 @@ import com.megatrust.jobsapp.ui.home.Job
 class JobsRemoteDataSource(
     private val service: JobsService
 ) : IJobsRemoteDataSource {
-    override suspend fun fetch(): Either<String?, List<Job>> {
+    override
+    suspend fun fetch(): Either<String?, List<Job>> {
         return try {
             val list = service.fetchJobs().mapNotNull {
                 it.toJob()
